@@ -1,0 +1,27 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Unused notebook
+/Untitled.ipynb
+
+# Local video recordings
+*.mp4
